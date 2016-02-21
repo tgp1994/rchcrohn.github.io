@@ -493,8 +493,18 @@
     <script>
       (function ($) {
         $(function () {
+          var gaEnabled = true;
+
+          $(window).on('load', function () {
+            gaEnabled = !!(window.ga && window.ga.create);
+          });
+
           $('a').on('click', function (e) {
             var $link = $(this);
+
+            if (!gaEnabled) {
+              return true;
+            }
 
             trackOutboundLink($link.attr('href')); 
 
