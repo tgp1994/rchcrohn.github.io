@@ -103,8 +103,10 @@ p.resume {
   height: 70px;
 }
 
-.media-object {
-  max-width: 120px;
+@media (max-width: 480px) {
+  .media-object-container {
+    display: none;
+  }
 }
 
 .media-source {
