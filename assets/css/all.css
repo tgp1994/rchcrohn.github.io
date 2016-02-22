@@ -95,7 +95,7 @@ p.resume {
 .media-object-container {
   display: block;
   background-color: #f0f0f0;
-  background-position: 50% 25%;
+  background-position: 0;
   background-size: cover;
   background-repeat: no-repeat;
   width: 120px;
