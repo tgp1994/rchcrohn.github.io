@@ -89,7 +89,6 @@ p.resume {
 }
 
 .media-heading {
-  margin-top: -4px;
   line-height: 1.3em;
 }
 
@@ -101,6 +100,7 @@ p.resume {
   background-repeat: no-repeat;
   width: 120px;
   height: 70px;
+  margin-top: 4px;
 }
 
 @media (max-width: 480px) {
