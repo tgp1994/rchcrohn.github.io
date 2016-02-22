@@ -1,2 +1,2 @@
-# RCH & Crohn
-Les dernières actualités et recherches sur les maladies inflammatoires chroniques de l'intestin (MICI).
+# UC & Crohn's
+The latest research and treatment for chronic inflammatory bowel disease (IBD).
