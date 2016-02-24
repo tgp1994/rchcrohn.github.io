@@ -84,6 +84,17 @@ p.resume {
   margin: 0 auto;
 }
 
+.page-content-nav {
+  text-align: center;
+  margin-bottom: 28px;
+  margin-top: -18px;
+}
+
+.page-content-nav > li {
+  float: none;
+  display: inline-block;
+}
+
 .media {
   margin-bottom: 38px;
 }
